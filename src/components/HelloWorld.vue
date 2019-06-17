@@ -80,6 +80,10 @@
         </a>
       </li>
     </ul>
+    <div class="div">
+      <p>ssssssss</p>
+      <div></div>
+    </div>
   </div>
 </template>
 
@@ -95,7 +99,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style scoped lang="scss">
 h1, h2 {
   font-weight: normal;
 }
@@ -110,4 +114,14 @@ li {
 a {
   color: #42b983;
 }
+.div{
+  p{
+    font-size: 24px;
+  }
+  div{
+    width:90px;
+    height: 90px;
+    background-color: pink;
+  }
+ }
 </style>
